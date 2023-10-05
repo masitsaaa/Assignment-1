@@ -1,0 +1,27 @@
+Import java.util.Scanner;
+Public static void main (string[] args {
+String correctUsername = “your username”;
+String correctPassword = “your password”;
+Int attempts = 3;
+System.out.print(“enter your username :”);
+String Username = Scanner.nextLine();	
+System.out.print(“enter your password :”);
+String password = Scanner.nextLine();
+If(Username.equals(“object emmanuel”);&&password
+System.out.println(“Login successful”);
+break;
+}
+Else{
+System.out.println(“Login failed try again”);
+attempts--;
+if (attempts > 0) {
+System.out.println(“you have “+attempts)
+}
+Else{
+System.out.println(“No more attempts”)
+}
+}
+} 
+Scanner.close();
+}
+
